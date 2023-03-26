@@ -21,7 +21,7 @@ export default {
 
 <style lang='scss' scoped>
 .jumbo {
-  height: 200px;
+  height: 150px;
   display: flex;
   align-items: center;
 }

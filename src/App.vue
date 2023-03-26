@@ -23,16 +23,21 @@ export default {
 
 <template>
 
-<AppNavbar></AppNavbar>
+  <AppNavbar></AppNavbar>
 
-<AppJumbotron></AppJumbotron>
+  <AppJumbotron></AppJumbotron>
 
-<AppMain></AppMain>
+  <AppMain></AppMain>
 
-<AppFooter></AppFooter>
+  <AppFooter></AppFooter>
 
 </template>
 
-<style lang='scss' scoped>
+<style lang='scss'>
+
+.container-centered {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 </style>

@@ -50,7 +50,13 @@ nav {
     align-items: center;
 
     .logo {
-      padding: 20px;
+      padding: 10px 0;
+      display: flex;
+
+
+      img {
+        width: 70px;
+      }
     }
 
     .links ul {

@@ -29,5 +29,9 @@ ul {
   background-color: transparent;
   border: none;
   border: 2px solid #0282f9;
-}
 
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}

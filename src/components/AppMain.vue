@@ -55,7 +55,7 @@ main {
     .main-links {
 
       ul {
-        padding: 40px;
+        padding: 40px 0;
         display: flex;
         justify-content: space-around;
         gap: 40px;

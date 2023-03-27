@@ -106,11 +106,13 @@ footer {
       background-image: url(/images/dc-logo-bg.png);
       background-repeat: no-repeat;
       background-position: right;
-      padding: 70px;
+      height: 380px;
+      padding: 60px 0;
       display: flex;
-      gap: 20px;
-
-
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      gap: 30px;
 
       li {
         font-size: .8em;
@@ -125,11 +127,10 @@ footer {
   }
 
   .footer-down {
-    padding: 30px;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 
     .socials {
       display: flex;
@@ -145,6 +146,7 @@ footer {
         gap: 10px;
       }
     }
+
   }
 }
 </style>

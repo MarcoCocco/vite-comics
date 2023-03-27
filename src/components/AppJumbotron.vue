@@ -108,6 +108,7 @@ export default {
   padding: 40px 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px;
 }
 
